@@ -14,18 +14,18 @@ public class Day3 {
         //THIS_CANNOT_CHANGE = "You've met with a terrible fate, haven't you?";
         //The above code will refuse to even compile
 
-        int x = 0;
-        int y = 0;
+        double x = 0;
+        double y = 0;
         x++;
         y--;
-        int z = x+y;
+        double z = x+y;
         System.out.println(z);
 
         if (x < 100) {
             x += 50;
         }
         if (x > 100) {
-            x /= 20;
+            x /= 20.0;
         }
         System.out.println(x);
     }
