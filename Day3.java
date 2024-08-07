@@ -13,5 +13,12 @@ public class Day3 {
 
         //THIS_CANNOT_CHANGE = "You've met with a terrible fate, haven't you?";
         //The above code will refuse to even compile
+
+        int x = 0;
+        int y = 0;
+        x++;
+        y--;
+        int z = x+y;
+        System.out.println(z);
     }
 }
