@@ -20,5 +20,13 @@ public class Day3 {
         y--;
         int z = x+y;
         System.out.println(z);
+
+        if (x < 100) {
+            x += 50;
+        }
+        if (x > 100) {
+            x /= 20;
+        }
+        System.out.println(x);
     }
 }
